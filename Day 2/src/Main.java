@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         ArrayList<String> reports = new ArrayList<>();
         try {
-            Scanner in = new Scanner(new File("src/puzzleData.txt"));
+            Scanner in = new Scanner(new File("Day 2/src/puzzleData.txt"));
 
             while (in.hasNextLine()) {
                 reports.add(in.nextLine());
