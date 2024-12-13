@@ -10,7 +10,7 @@ public class Main {
         ArrayList<Integer> list2 = new ArrayList<>();
 
         try {
-            Scanner in = new Scanner(new File("src/numbers.txt"));
+            Scanner in = new Scanner(new File("Day1/src/numbers.txt"));
             while(in.hasNextLine()) {
                 list1.add(in.nextInt());
                 list2.add(in.nextInt());

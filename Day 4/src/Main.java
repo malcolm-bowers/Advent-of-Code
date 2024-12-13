@@ -97,7 +97,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        char[][] grid = loadGrid("src/puzzle.txt");
+        char[][] grid = loadGrid("Day 4/src/puzzle.txt");
 
         String word = "XMAS";
         int timesWordFound = searchWord(grid, word);

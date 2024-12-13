@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         List<String[]> pairs = new ArrayList<>();
         List<List<String>> orders = new ArrayList<>();
-        getData("src/puzzle.txt", pairs, orders);
+        getData("Day 5/src/puzzle.txt", pairs, orders);
 
 
         int passingOrdersCount = getPassingTests(pairs, orders);
